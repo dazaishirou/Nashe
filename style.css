@@ -5,7 +5,7 @@
   --darkcolor2: #3a3127;
   --darkimage: url(https://i.ibb.co/YtqWNHG/wp9999057.jpg);
   --darktitle: Pirata One;
-  --darkrender: url(https://i.ibb.co/bdDd0Sh/kamisato-ayaka-render-by-minhchauk1k-df3h8fg-414w-2x.png);
+  --darkrender: url(https://i.ibb.co/ykd69fN/ayaka-genshin-impact-render-by-mhesagnta-dgafwt6-pre.png);
 }
 
 /***barra de rolagem***/
@@ -170,7 +170,7 @@ a {text-decoration: none; color: white;}
   clip-path: polygon(0 0, 100% 0, 100% 39.35%, 50% 100%, 0 39.35%);
   width:860px;
   height: 720px;
-  background-image: url(https://i.ibb.co/bdDd0Sh/kamisato-ayaka-render-by-minhchauk1k-df3h8fg-414w-2x.png);
+  background-image: url(https://i.ibb.co/ykd69fN/ayaka-genshin-impact-render-by-mhesagnta-dgafwt6-pre.png);
   filter: contrast(100%);
   background-position: -50px -0px;
   background-size: 900px;
@@ -190,7 +190,7 @@ a {text-decoration: none; color: white;}
     position: relative;
     width: 550px;
     text-align: center;
-    color:  #0c85f7 ;
+    color:  #f6a6cd;
 }
 
 .title span {
