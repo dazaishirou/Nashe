@@ -1,0 +1,263 @@
+:root {
+  --darkborder: #333;
+  --darkrow: #101010;
+  --darkcolor: #4d3e2d;
+  --darkcolor2: #3a3127;
+  --darkimage: url(https://i.ibb.co/YtqWNHG/wp9999057.jpg);
+  --darktitle: Pirata One;
+  --darkrender: url(https://i.ibb.co/bdDd0Sh/kamisato-ayaka-render-by-minhchauk1k-df3h8fg-414w-2x.png);
+}
+
+/***barra de rolagem***/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 2px;
+    background-color: #222;
+    border: 1px solid var(--darkborder);
+}
+
+::-webkit-scrollbar-thumb {
+    border: 0px ;
+    background-color: var(--darkcolor);
+    border: 1px solid var(--darkborder);
+  border-right: 0px;
+    width: 5px!important;
+}
+
+
+body {
+padding: 0px;
+border: 20px solid red;
+ margin: 0px;
+  color: white;
+  font-family: inter;
+}
+
+a {text-decoration: none; color: white;}
+
+.conteneur_minwidth_IE {
+    background: #0A0A0Acc;
+    margin-top: 100vh;
+    padding: 100px 0px 90px;
+    position: relative;
+    z-index: 3;
+}
+
+#wrap {
+    width: 1185px;
+    background-color: #131313;
+    padding: 0px 23px 0px;
+    border: 1px solid var(--darkborder);
+  margin: 0px auto 50px;
+  position: relative;
+  z-index: 3;
+}
+
+.forumbackground {
+  width: 101%;
+  height: 100vh;
+  position: fixed;
+  background-image: var(--darkimage);
+  background-size: cover;
+  top: 0px;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-color: #666;
+  left: 0px;
+}
+
+.particles {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  pointer-events: none;
+  z-index: 1;
+  border: 0px;
+  filter: brightness(55%);
+  top: 0px;
+}
+
+.conteneur_minwidth_IE {
+  background:#0A0A0Acc;
+  margin-top: 100vh;
+  padding: 100px 0px 90px;
+  position: relative;
+  z-index: 3;
+}
+
+.border {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  position: fixed;
+  border: 20px solid #090909;
+  outline: 1px solid var(--darkborder);
+  outline-offset: -21px;
+  z-index:999999!important;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+}
+
+/***header***/
+
+.forumhead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  z-index:99;
+}
+
+.aftersymbol {
+  width: 700px;
+  height: 600px;
+  position: absolute;
+  background-image: url(https://cdn.shopify.com/s/files/1/1385/0277/files/138-1389512_clip-art-freeuse-amaryllis-drawing-orchid-flower-dainty.png?v=1655334308&width=741);
+  filter: grayscale(100%) brightness(200%) opacity(100%);
+}
+
+.toplink {
+  position: absolute;
+  transform: rotate(45deg);
+  width: 440px;
+  height: 440px;
+  z-index: 1;
+  margin-top: -220px;
+  margin-left: 55px;
+}
+
+.symbol {
+  width: 480px;
+  height: 480px;
+  margin: 0px auto;
+  pointer-events: none;
+  transform: rotate(45deg);
+  position: absolute;
+  box-shadow: 0px 0px 30px 4px #111;
+  outline: 1px solid #777;
+  outline-offset: -20px;
+  background-image: var(--darkimage);
+  background-blend-mode: overlay;
+  background-size: cover; 
+  background-color: #333;
+  background-position: center bottom;
+  filter: grayscale(00%) brightness(70%) contrast(100%) ;
+}
+
+.icontop {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background: red;
+}
+
+.esse {
+  margin-top: 35px;
+  font-weight: 600;
+  position: absolute;
+  margin-top: -37px;
+  clip-path: polygon(0 0, 100% 0, 100% 39.35%, 50% 100%, 0 39.35%);
+  width:860px;
+  height: 720px;
+  background-image: url(https://i.ibb.co/bdDd0Sh/kamisato-ayaka-render-by-minhchauk1k-df3h8fg-414w-2x.png);
+  filter: contrast(100%);
+  background-position: -50px -0px;
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-color: #CC000000;
+  filter: brightness(110%) saturate(130%);
+}
+
+.title {
+    margin-left: 0px;
+    height: 100px;
+    margin-top: 300px;
+    line-height: 39px;
+    font-weight: 300;
+    letter-spacing: -5px;
+    font-family: inter;
+    position: relative;
+    width: 550px;
+    text-align: center;
+    color:  #0c85f7 ;
+}
+
+.title span {
+ font-size: 10px; 
+ letter-spacing: 0px;
+ width: 250px;
+ display: block;
+ position: absolute;
+ text-align: right;;
+ line-height: 10px;
+ margin-left: 106px;
+ margin-top: 8px;
+}
+
+.title span2 {
+  font-size:130px;
+  font-family: var(--darktitle);
+  letter-spacing: -5px;
+  font-weight: 400;
+  text-shadow: 0px 0px 45px #222;
+}
+
+.title span3 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  display: block;
+  text-transform: uppercase;
+  margin-top: -10px;
+  font-family: inter;
+  font-weight: 400;
+  line-height: 10px;
+}
+
+.title span2:after {content: "Nashe"}
+.title span3:after {content: "(1522135253)"}
+
+:root {
+    --MusicBox-Left-Or-Right:above;
+    --MusicBox-Edge-Distance:30px;
+    
+    --MusicBox-Width:269px;
+    
+    --MusicBox-Title-Padding:15px;
+    --MusicBox-Title-Background:#222;
+    --MusicBox-Title-Size:10px;
+    --MusicBox-Title-Color:#eee;
+    --MusicBox-Title-Corner-Roundness:8px;
+    
+    --MusicBox-Main-Background:#fff;
+    --MusicBox-Main-Padding:14px;
+    --MusicBox-Side-Borders:#eee;
+    
+    --Album-Art-Size:32px;
+    --Album-Art-Corner-Roundness:3px;
+    --Album-Art-Gap:10px;
+    
+    --Song-Name-Size:9px;
+    --Song-Name-Color:#999;
+    
+    --Artist-Name-Size:10px;
+    --Artist-Name-Color:#444;
+    
+    --Music-Buttons-Size:11px;
+    --Music-Buttons-Color:#222;
+    
+    --Track-Spacing:9px;
+    
+    --Autoplay-First-Song:no;
+    --Autoplay-Next-Song:yes;
+    --Loop-Playlist-Infinitely:no;
